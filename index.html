@@ -16,7 +16,7 @@
         /* whole section */
         section {
             /* padding to the top and bottom */
-            padding: 100px 0;
+            padding: 40px 0;
         }
 
         /* navbar */
@@ -35,6 +35,21 @@
 
         .round-border {
             border-radius: 1rem;
+        }
+
+        /* icons */
+        li{
+            list-style: none;
+        }
+        @media screen and (max-width:720px) {
+            
+            #icons{
+                display: block !important;
+                position: relative !important;
+                align-items: center;
+            }
+
+            
         }
         
 
@@ -62,7 +77,7 @@
                     <li id="hover" class="nav-item"><a class="nav-link" href="#about-section">About</a></li>
                     <li id="hover" class="nav-item"><a class="nav-link" href="#projects-section">Projects</a></li>
                     <li id="hover" class="nav-item"><a class="nav-link" href="#contact-section">Contact</a></li>
-                    <li id="hover" class="nav-item"><a class="nav-link" href=""><button type="button" id="color" class="btn btn-info">Resume</button></a></li>
+                    <li id="hover" class="nav-item"><a class="nav-link" target="_blank" href="/images/Grey Clean CV Resume Photo.pdf"><button type="button" id="color" class="btn btn-info">Resume</button></a></li>
                 </ul>
             </div>
 
@@ -129,19 +144,87 @@
                     <div class="col-6">
                         <h3>Frontend Projects</h3>
 
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quaerat veritatis ab consequuntur temporibus ipsam labore, magni iusto fuga pariatur laboriosam, explicabo officiis? Accusantium, eius eos modi sit debitis aperiam?
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis dicta excepturi eveniet iure nostrum saepe, expedita tempora recusandae numquam mollitia aspernatur tenetur explicabo unde ut possimus, impedit ratione aperiam ducimus.
-                        </p>
+                        <div class="card mb-4 text-center">
+                            <div class="card-title text center">
+                                <h4>Webpage with flexbox</h4>
+                                <div class="card-body">
+
+
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quaerat veritatis ab consequuntur temporibus ipsam labore, magni iusto fuga pariatur laboriosam, explicabo officiis? Accusantium, eius eos modi sit debitis aperiam?
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis dicta excepturi eveniet iure nostrum saepe, expedita tempora recusandae numquam mollitia aspernatur tenetur explicabo unde ut possimus, impedit ratione aperiam ducimus.
+                                    </p>
+
+                                    <a target="_blank" href="https://tommyshado.github.io/basic-webpages/my-webpage/my-webpage.html"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                                    </svg></a>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card text-center">
+                            <div class="card-title text-center">
+                                <h4>Webpage with simple grid css</h4>
+                                <div class="card-body">
+
+
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quaerat veritatis ab consequuntur temporibus ipsam labore, magni iusto fuga pariatur laboriosam, explicabo officiis? Accusantium, eius eos modi sit debitis aperiam?
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis dicta excepturi eveniet iure nostrum saepe, expedita tempora recusandae numquam mollitia aspernatur tenetur explicabo unde ut possimus, impedit ratione aperiam ducimus.
+                                    </p>
+
+                                    <a target="_blank" href="https://tommyshado.github.io/basic-webpages/web-page-grid/my-webpage-grid.html"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                                    </svg></a>
+
+                                </div>
+                            </div>
+                        </div>                      
+
                     </div>
 
                     <div class="col-6">
                         <h3>Backend Projects</h3>
 
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nobis voluptatem incidunt magni sed iusto ipsum, atque suscipit minus quos consequuntur voluptate, architecto dolor nisi, enim maxime veritatis cupiditate qui.
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia iusto tempore dolore cupiditate, consequuntur nostrum maxime saepe quos voluptates ea quia dolorem culpa autem. Saepe nam temporibus eligendi repellendus reprehenderit?
-                        </p>
+                        <div class="card mb-4">
+                            <div class="card-title text-center">
+                                <h4>NodeJS Api</h4>
+                                <div class="card-body">
+
+
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quaerat veritatis ab consequuntur temporibus ipsam labore, magni iusto fuga pariatur laboriosam, explicabo officiis? Accusantium, eius eos modi sit debitis aperiam?
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis dicta excepturi eveniet iure nostrum saepe, expedita tempora recusandae numquam mollitia aspernatur tenetur explicabo unde ut possimus, impedit ratione aperiam ducimus.
+                                    </p>
+
+                                    <a href="https://github.com/tommyshado"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                                    </svg></a>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-title text-center">
+                                <h4>Project with a Database</h4>
+                                <div class="card-body">
+
+
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quaerat veritatis ab consequuntur temporibus ipsam labore, magni iusto fuga pariatur laboriosam, explicabo officiis? Accusantium, eius eos modi sit debitis aperiam?
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis dicta excepturi eveniet iure nostrum saepe, expedita tempora recusandae numquam mollitia aspernatur tenetur explicabo unde ut possimus, impedit ratione aperiam ducimus.
+                                    </p>
+
+                                    <a href="https://github.com/tommyshado"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                                    </svg></a>
+
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
 
                 </div>
@@ -158,7 +241,7 @@
                     <h2>Get in touch</h2>
 
                     <p>
-                        Currently, I am looking for new opportunities and growth. Feel free to have look at my C.V and also email me below.
+                        Currently, I am looking for new opportunities and growth. Feel free to email me below.
                     </p>
                     
                     <div class="container">
@@ -180,7 +263,7 @@
 
     <section id="icons-section">
 
-        <div class="fixed-bottom my-5 mx-lg-5">
+        <div id="icons" class="fixed-bottom my-5 mx-lg-5">
             <ul>
                 <li class="my-4"><a href="https://github.com/tommyshado"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
                     <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
