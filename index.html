@@ -13,10 +13,10 @@
         body {
             background-color: #D9D9D9;
         }
-        /* whole section */
+        /* whole sections */
         section {
             /* padding to the top and bottom */
-            padding: 60px 0;
+            padding: 40px 0;
         }
 
         /* navbar */
@@ -46,17 +46,6 @@
             color: white !important;
         }
 
-        @media screen and (max-width:720px) {
-            
-            #icons{
-                display: block !important;
-                position: relative !important;
-                align-items: center;
-            }
-            
-        }
-        
-
     </style>
 
     <title>Mthunzi Tom</title>
@@ -77,10 +66,10 @@
             <!-- here I am linking the toggle button with the links -->
             <div class="collapse navbar-collapse justify-content-end align-content-center" id="main-nav">
                 <ul class="navbar-nav">
-                    <li id="hover" class="nav-item "><a class="nav-link li-color" href="#intro">Home</a></li>
-                    <li id="hover" class="nav-item"><a class="nav-link li-color" href="#about-section">About</a></li>
-                    <li id="hover" class="nav-item"><a class="nav-link li-color" href="#projects-section">Projects</a></li>
-                    <li id="hover" class="nav-item"><a class="nav-link li-color" href="#contact-section">Contact</a></li>
+                    <li id="hover" class="nav-item"><a class="nav-link text-light" href="#intro">Home</a></li>
+                    <li id="hover" class="nav-item"><a class="nav-link text-light" href="#about-section">About</a></li>
+                    <li id="hover" class="nav-item"><a class="nav-link text-light" href="#projects-section">Projects</a></li>
+                    <li id="hover" class="nav-item"><a class="nav-link text-light" href="#contact-section">Contact</a></li>
                     
                 </ul>
             </div>
@@ -91,20 +80,22 @@
 
     <section id="intro">
 
-        <div class="container">
+        <div class="container my-3">
             <div class="row justify-content-center justify-content-between align-items-center">
 
                 <div class="col-7 text-center">
+                    
                     <h1 id="p-font" class="display-2">Mthunzi Sidwell Tom</h1>
 
                     <p class="text-muted">
-                        I am an amazing software developer talent. I am currently learning fullstack javaScript at codeX.
+                        I am an amazing software developer talent. I am currently learning fullstack javaScript and soft skills at codeX.
                     </p>
+
                 </div>
 
                 <div class="col-4">
                     <!-- img-fluid class makes my image a 100% width and it will be responsive -->
-                    <img class="img-fluid round-border" src="images/IMG-20230320-WA0013.jpg" alt="profile-pic">
+                    <img class="img-fluid round-border my-5" src="images/IMG-20230320-WA0013.jpg" alt="profile-pic">
                 </div>
             </div>
 
@@ -117,33 +108,32 @@
         <div class="container-lg">
             
             <h2>About me</h2>   
-                
-            <p>
-                Hello! my name is Mthunzi Tom and I am interested in both frontend and backend development. 
-                I enjoy creating websites that make an impact in people's lives. My interest in web development began earlier last year.
-                Here are a few tools I'v been working with recently:
-            </p>
+              
+            <div class="my-3">
+                <p>
+                    Hello! my name is Mthunzi Tom and I am interested in both frontend and backend development. 
+                    I enjoy creating websites that make an impact in people's lives. My interest in web development began earlier last year.
+                    Here are a few tools I'v been working with recently:
+                </p>
 
-            <div class="d-flex text-center">
-                <div>
-                <h3><img src="images/java-script.png" alt="js-logo" width="5%"> JavaScript</h3>
-                
-                <h3><img src="images/python.png" alt="js-logo" width="5%"> Python</h3>
+                <div class="d-flex text-center">
+                    <div>
+                        <h3><img src="images/java-script.png" alt="js-logo" width="5%"> JavaScript</h3>
+                        
+                        <h3><img src="images/python.png" alt="js-logo" width="5%"> Python</h3>
 
-                <h3><img src="images/css.png" alt="js-logo" width="5%"> Vanilla CSS</h3>
+                        <h3><img src="images/css.png" alt="js-logo" width="5%"> Vanilla CSS</h3>
+                    </div>
+
+                    <div>
+                        <h3><img src="images/github.png" alt="js-logo" width="5%"> Github</h3>
+
+                        <h3><img src="images/terminal.png" alt="js-logo" width="5%"> Linux terminal</h3>
+
+                        <h3><img src="images/bootstrap.png" alt="js-logo" width="5%"> Bootstrap 5</h3>
+                    </div>
 
                 </div>
-
-                <div>
-
-                <h3><img src="images/github.png" alt="js-logo" width="5%"> Github</h3>
-
-                <h3><img src="images/terminal.png" alt="js-logo" width="5%"> Linux terminal</h3>
-
-                <h3><img src="images/bootstrap.png" alt="js-logo" width="5%"> Bootstrap 5</h3>
-
-                </div>
-
             </div>
 
                 <a class="nav-link text-center my-4" target="_blank" href="images/Grey Clean CV Resume Photo.pdf"><button type="button" id="color" class="btn btn-info text-light">Resume</button></a>
@@ -157,133 +147,132 @@
 
             <div class="container-lg">
                 <div class="row justify-content-center justify-content-between">
-                    <h2>Projects</h2>
+                    <h2>Projects:</h2>
 
-                    <div class="col-6">
-                        <h3>Frontend Projects</h3>
+                        <div class="col-5 my-3">
+                            <h3 class="text-center">Frontend Projects</h3>
 
-                        <div class="card mb-4 text-center">
-                            <div class="card-title text center">
-                                <h4>Webpage with flexbox</h4>
-                                <div class="card-body">
+                            <div class="card mb-4 text-center">
+                                <div class="card-title text center">
+                                    <h4>Webpage with flexbox</h4>
+                                    <div class="card-body">
 
-                                    <img class="img-fluid" src="images/webpage-flex.png" alt="web page flex img" width="50%">
-                                    <p>
-                                        This is my personal web page using css, html and flexbox.
-                                    </p>
+                                        <img class="img-fluid" src="images/webpage-flex.png" alt="web page flex img" width="50%">
+                                        <p>
+                                            This is my personal web page that I had created using css, html and flexbox.
+                                        </p>
 
-                                    <div>
+                                        <div>
+
+                                            <h4>Tools:</h4>
+
+                                            <img src="images/css.png" alt="css-logo" width="7%">
+
+                                            <img src="images/html-5.png" alt="html-5" width="7%">
+
+                                        </div>
+
+                                        <a target="_blank" href="https://tommyshado.github.io/basic-webpages/my-webpage/my-webpage.html"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-github my-2" viewBox="0 0 16 16">
+                                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                                        </svg></a>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card text-center">
+                                <div class="card-title text-center">
+                                    <h4>Webpage with simple grid css</h4>
+                                    <div class="card-body">
+
+                                        <img class="img-fluid" src="images/webpage-simple-grid-css.png" alt="web page simple grid img" width="50%">
+                                        <p>
+                                            This is my personal web page that I had created using css, html and simple grid framework. 
+                                        </p>
+
+                                        <div>
 
                                         <h4>Tools:</h4>
 
-                                        <img src="images/css.png" alt="css-logo" width="7%">
+                                            <img src="images/css.png" alt="css-logo" width="7%">
 
-                                        <img src="images/html-5.png" alt="html-5" width="7%">
+                                            <img src="images/html-5.png" alt="html-5" width="7%">
+
+                                        </div>
+
+                                        <a target="_blank" href="https://tommyshado.github.io/basic-webpages/web-page-grid/my-webpage-grid.html"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                                        </svg></a>
 
                                     </div>
+                                </div>
+                            </div>                      
 
-                                    <a target="_blank" href="https://tommyshado.github.io/basic-webpages/my-webpage/my-webpage.html"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-github my-2" viewBox="0 0 16 16">
-                                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
-                                    </svg></a>
+                        </div>
 
+                        <div class="col-5">
+                            <h3 class="text-center">Backend Projects</h3>
+
+                            <div class="card mb-4">
+                                <div class="card-title text-center">
+                                    <h4>NodeJS Api</h4>
+                                    <div class="card-body">
+
+                                        <img class="img-fluid" src="images/1200px-Node.js_logo.svg.png" alt="NodeJS" width="50%">
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+
+                                        <div>
+
+                                            <h4>Tools:</h4>
+                                            
+
+                                            <img src="images/nodejs.png" alt="css-logo" width="7%">
+
+                                            <img class="mx-2" src="images/java-script.png" alt="html-5" width="7%">
+
+                                        </div>
+
+                                        <a href="https://github.com/tommyshado"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                                        </svg></a>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-title text-center">
+                                    <h4>Project with a Database</h4>
+                                    <div class="card-body">
+
+                                        <img class="img-fluid" src="images/Untitled-design-1-.png" alt="data-base" width="50%">
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+
+                                        <div>
+
+                                            <h4>Tools:</h4>
+                                            
+
+                                            <img src="images/sql.png" alt="css-logo" width="7%">
+
+                                            <img  class="mx-2"src="images/python (1).png" alt="html-5" width="7%">
+
+                                        </div>
+
+                                        <a href="https://github.com/tommyshado"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                                        </svg></a>
+
+                                    </div>
                                 </div>
                             </div>
                         </div>
-
-                        <div class="card text-center">
-                            <div class="card-title text-center">
-                                <h4>Webpage with simple grid css</h4>
-                                <div class="card-body">
-
-                                    <img class="img-fluid" src="images/webpage-simple-grid-css.png" alt="web page simple grid img" width="50%">
-                                    <p>
-                                        This is my personal web page using css, html and simple grid framework. 
-                                    </p>
-
-                                    <div>
-
-                                    <h4>Tools:</h4>
-
-                                        <img src="images/css.png" alt="css-logo" width="7%">
-
-                                        <img src="images/html-5.png" alt="html-5" width="7%">
-
-                                    </div>
-
-                                    <a target="_blank" href="https://tommyshado.github.io/basic-webpages/web-page-grid/my-webpage-grid.html"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-                                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
-                                    </svg></a>
-
-                                </div>
-                            </div>
-                        </div>                      
-
-                    </div>
-
-                    <div class="col-6">
-                        <h3>Backend Projects</h3>
-
-                        <div class="card mb-4">
-                            <div class="card-title text-center">
-                                <h4>NodeJS Api</h4>
-                                <div class="card-body">
-
-                                    <img class="img-fluid" src="images/1200px-Node.js_logo.svg.png" alt="NodeJS" width="50%">
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                                    </p>
-
-                                    <div>
-
-                                        <h4>Tools:</h4>
-                                        
-
-                                        <img src="images/nodejs.png" alt="css-logo" width="7%">
-
-                                        <img class="mx-2" src="images/java-script.png" alt="html-5" width="7%">
-
-                                    </div>
-
-                                    <a href="https://github.com/tommyshado"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-                                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
-                                    </svg></a>
-
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <div class="card-title text-center">
-                                <h4>Project with a Database</h4>
-                                <div class="card-body">
-
-                                    <img class="img-fluid" src="images/Untitled-design-1-.png" alt="data-base" width="50%">
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                                    </p>
-
-                                    <div>
-
-                                        <h4>Tools:</h4>
-                                        
-
-                                        <img src="images/sql.png" alt="css-logo" width="7%">
-
-                                        <img  class="mx-2"src="images/python (1).png" alt="html-5" width="7%">
-
-                                    </div>
-
-                                    <a href="https://github.com/tommyshado"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-                                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
-                                    </svg></a>
-
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
 
                 </div>
             </div>
@@ -298,19 +287,21 @@
                 <div class="row justify-content-center justify-content-between text-center align-items-center">
                     <h2>Get in touch</h2>
 
-                    <p>
-                        Currently, I am looking for new opportunities and growth. Feel free to email me below.
-                    </p>
-                    
-                    <div class="container">
-                        <div class="row">
-
-                            <div class="col">
-                                <!-- button -->
-                                <a href="mailto:mthunzitom.10@gmail.com"><button type="button" id="color" class="btn btn-info text-light">Say hello</button></a>
-                            </div>
-                        </div>
+                    <div class="my-3">
+                        <p>
+                            Currently, I am looking for new opportunities and growth. Feel free to email me below.
+                        </p>
                         
+                        <div class="container">
+                            <div class="row">
+
+                                <div class="col">
+                                    <!-- button -->
+                                    <a href="mailto:mthunzitom.10@gmail.com"><button type="button" id="color" class="btn btn-info text-light">Say hello</button></a>
+                                </div>
+                            </div>
+                            
+                        </div>
                     </div>
 
                 </div>
@@ -321,14 +312,12 @@
 
     <section id="icons-section">
 
-
+    <!-- external links -->
     <nav class="fixed-bottom" id="color">
 
         <div class="container">
 
-            <!-- internal links -->
-            <!-- here I am linking the toggle button with the links -->
-            <div id="icons" class="my-3 text-center mx-lg-5">
+            <div class="my-3 text-center mx-lg-5">
 
                     <a class="mx-1" href="https://github.com/tommyshado"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-github text-light" viewBox="0 0 16 16">
                         <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
