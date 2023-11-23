@@ -1,0 +1,49 @@
+body {
+    background-color: #D9D9D9;
+    font-family: 'Lugrasimo', cursive;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Sarabun', sans-serif;
+}
+/* whole sections */
+section {
+    /* padding to the top and bottom */
+    padding: 40px 0;
+}
+
+/* navbar */
+#color {
+    background-color: #284B63 !important;
+}
+
+#hover a:hover {
+    background-color: #D9D9D9;
+}
+
+/* styling the intro section */
+#p-font {
+    color: #284B63;
+}
+
+.round-border {
+    border-radius: 1rem;
+}
+
+/* icons */
+li{
+    list-style: none;
+}
+
+.li-color {
+    color: white !important;
+}
+
+.page-title {
+    border: 2px solid #284B63;
+    border-radius: 1rem;
+}
+
+.title {
+    color: #284B63;
+    font-weight: 400;
+}
