@@ -31,12 +31,6 @@ section {
     border-radius: 10px;
 }
 
-
-
-
-
-
-
 /* navbar */
 .navbar-brand{
     font-weight: 500;
@@ -64,6 +58,11 @@ section {
 
 .round-border {
     border-radius: 1rem;
+}
+
+.flex-projects {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 /* icons */
